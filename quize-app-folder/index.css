@@ -1,0 +1,109 @@
+body{
+    background-image: url(quize-image.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.starting-page{
+    text-align: center;
+   position:relative;
+   top:270px;
+}
+
+#name{
+    padding:10px;
+    width:250px;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+    background-color:rgba(255, 105, 180, 0.216);
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.456);
+    font-weight: bolder;
+}
+
+.start-btn{
+    padding:7px;
+    width:100px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Question-container{
+    text-align: center;
+    position:relative;
+    top:250px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 25px; 
+    text-align: left;
+    padding-left: 40%; 
+    
+}
+
+label input[type="radio"] {
+    margin-right: 10px; 
+    vertical-align: middle; 
+    transform: scale(1.5);
+    cursor:pointer;
+}
+
+.next-btn{
+    padding:10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: plum;
+    width:100px;
+    border: none;
+    position:relative;
+    left:70px;
+}
+
+.next-btn:hover{
+    cursor:pointer;
+    background-color: yellow;
+}
+
+.previous-btn{
+    padding:10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: plum;
+    width:150px;
+    border: none;
+}
+
+.previous-btn:hover{
+    cursor:pointer;
+    background-color: yellow;
+}
+
+.Answer-container{
+    text-align: center;
+    position:relative;
+    top:400px;
+}
+.submit-btn{
+    padding:15px;
+    width:150px;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.score-sec{
+    color:darkmagenta;
+}

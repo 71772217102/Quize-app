@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="starting-page">
+        <h1>Challenge yourself ,learn more,and <br>have fun with every question!</h1>
+        <input type="text" placeholder="Enter your name" id="name" required><br>
+        <button class="start-btn" onclick="startQuiz()">Start</button>
+    </div>
+
+    <div class="Quize-container" style="display: none;">
+        <div class="Question-container">
+            <h1 class="Question"></h1>
+            <label><input type="radio" class="op" name="choices" value="0"> Option 1</label><br>
+            <label><input type="radio" class="op" name="choices" value="1"> Option 2</label><br>
+            <label><input type="radio" class="op" name="choices" value="2"> Option 3</label><br>
+            <label><input type="radio" class="op" name="choices" value="3"> Option 4</label><br>
+            <button class="previous-btn" onclick="previous()" style="display: none;">Previous</button>
+            <button class="next-btn" onclick="next()">Next</button>
+        </div>
+    </div>
+
+    <div class="Answer-container" style="display: none;">
+        <h1 class="subText">Click submit button to finalize your answers</h1>
+        <button class="submit-btn" onclick="submit()">Submit</button>
+        <h1 id="printname"></h1>
+        <h1 class="score-sec"></h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
